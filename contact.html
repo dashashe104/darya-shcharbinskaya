@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>My Website</title>
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrhq9vZbePrZIxfznglPdZOTz4da7RpZU&callback=initMap&libraries=&v=weekly"
+      defer>
+  </script>
+  <!-- Bootstrap Stylesheet-->
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="index.js"></script>
+</head>﻿
+<body>
+  <header>
+  </header>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+        <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+        </ul>
+    </div>
+    <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+        <a class="mx-auto" href="#">
+            <img src="images/logo.jpg" alt="" height="" width="" class="rounded-circle">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+        <ul class="navbar-nav mr-auto text-center">
+            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+            <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <i class="fa fa-phone-square fa-3x" aria-hidden="true"></i><br>
+          <a href="tel:9175000000"><h5>Contact me</h5></a>
+          <i class="fa fa-envelope fa-3x" aria-hidden="true"></i><br>
+          <a href="mailto:dshcharbinskaya@gmail.com"><h5>Email: dshcharbinskaya@gmail.com</h5></a>
+          <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i><br>
+          <a href="https://linkedin.com"><h5>Connect me on Linked In</h5></a>
+        </div>
+        <div class="col">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+  </footer>
+  <!--jQuery, Popper, and Bootstrap Javascript files-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

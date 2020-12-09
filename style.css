@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+/* Navigation Bar */
+nav ul{
+  list-style-type: none;
+  text-align: right;
+  padding-right: 20px;
+}
+nav li{
+  display: inline;
+  font-size: 1.5em;
+  font-family: 'Playfair Display', serif;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+main {
+  max-width: 1400px;
+}
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+h2 {
+  font-size: 3.5em;
+}
+h3 {
+  font-size: 2.5em;
+  text-align: center;
+}
+blockquote {
+  padding-left: 50px;
+  max-width: 500px;
+}
+footer {
+  text-align: center;
+}
+.my-photo {
+  margin: 0 auto;
+  display: block;
+}
+i.fa{
+  color: #8FBAFF;
+}
+div.col{
+  padding-top: 20px;
+}
+#map {
+  height: 300px;
+  width: 80%;
+}
+
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+  h1{
+    font-size: 2em;
+  }
+  .column-left, .column-right {
+    width: 100%;
+  }
+}
+
+/* CSS for Smartphones */
+@media only screen and (max-width: 768px){
+  h1{
+    font-size: 1.5em;
+  }
+  .column-left, .column-right {
+    width: 100%;
+  }
+}
