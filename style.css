@@ -1,27 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{
+body {
   background-color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
 }
 /* Navigation Bar */
-nav ul{
+nav ul {
   list-style-type: none;
   text-align: right;
   padding-right: 20px;
 }
-nav li{
+nav li {
   display: inline;
   font-size: 1.5em;
   font-family: 'Playfair Display', serif;
 }
-nav a{
+nav a {
   text-decoration: none;
   padding-right: 10px;
 }
 main {
   max-width: 1400px;
+  min-height: 500px;
 }
 h1 {
   text-align: center;
@@ -40,25 +41,40 @@ blockquote {
 }
 footer {
   text-align: center;
+  background-color: #F8F9FA;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+footer a {
+  color: black;
+}
+footer a:hover {
+  color: #5DBCD2;
+}
+footer a:active {
+  color: #5DBCD2;
 }
 .my-photo {
   margin: 0 auto;
   display: block;
 }
-i.fa{
+i.fa {
   color: #8FBAFF;
 }
-div.col{
+div.col {
   padding-top: 20px;
 }
 #map {
   height: 300px;
   width: 80%;
 }
+#line {
+  border-bottom: solid 1px gray;
+}
 
 /* CSS for Tablets */
 @media only screen and (max-width: 1024px){
-  h1{
+  h1 {
     font-size: 2em;
   }
   .column-left, .column-right {
@@ -68,7 +84,7 @@ div.col{
 
 /* CSS for Smartphones */
 @media only screen and (max-width: 768px){
-  h1{
+  h1 {
     font-size: 1.5em;
   }
   .column-left, .column-right {
